@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
-  width: 250px;
+  width: 400px;
   margin: 0px auto;
   display: block;
 }
@@ -435,6 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
+    text-align: center;
   }
   #hero h1 {
     font-size: 28px;
@@ -448,6 +449,19 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 70%;
   }
+
+  .section-title h2::before, .section-title h2::after {
+    width: 0 !important;
+  }
+
+  .row.content {
+    text-align: center;
+  }
+
+  .clients {
+    display: none;
+  }
+
 }
 
 @media (max-width: 575px) {
