@@ -432,6 +432,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#hero .icon {
+  margin: 5px;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#hero .row {
+  margin-left: 10px;
+}
+
+
 @media (max-width: 768px) {
   #hero {
     margin-top: 20px;
@@ -758,6 +773,7 @@ section {
   background: #ffb600;
   transition: all 0.3s ease-in-out;
 }
+
 
 .services .icon i {
   font-size: 36px;
@@ -1614,4 +1630,28 @@ section {
 
 #footer .footer-links a:hover {
   color: #ffb600;
+}
+
+/*--------------------------------------------------------------
+# CUSTOM
+--------------------------------------------------------------*/
+
+.mrgn-lft-0{
+  margin-left: 0 !important;
+}
+
+.mrgn-rght-0{
+  margin-right: 0 !important;
+}
+
+.mrgn-tp-0{
+  margin-top: 0 !important;
+}
+
+.mrgn-bttm-0{
+  margin-bottom: 0 !important;
+}
+
+.mrgn-all-0{
+  margin: 0 !important;
 }
