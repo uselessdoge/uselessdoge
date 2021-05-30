@@ -685,6 +685,7 @@ section {
   display: block;
   color: #eab729;
   float: left;
+  font-size: 32px;
 }
 
 .counts .content .count-box span {
