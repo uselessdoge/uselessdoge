@@ -491,6 +491,11 @@ h3, h4, h5, h6 {
     text-align: center;
     /* margin: 0 auto !important; */
   }
+
+  #hero .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
   #hero h1 {
     line-height: 66px;
   }
@@ -518,7 +523,7 @@ h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 50%;
   }
 }
 
