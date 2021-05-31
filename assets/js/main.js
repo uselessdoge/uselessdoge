@@ -208,4 +208,48 @@
     aos_init();
   });
 
+var copying = false;
+function copyText (textToCopy) {
+  if (copying) return;
+  // Create textarea element
+  var textarea = document.createElement('textarea')
+  
+  // Set the value of the text
+  textarea.value = textToCopy
+  
+  // Make sure we cant change the text of the textarea
+  textarea.setAttribute('readonly', '');
+  
+  // Hide the textarea off the screnn
+  textarea.style.position = 'absolute';
+  textarea.style.left = '-9999px';
+  
+  // Add the textarea to the page
+  document.body.appendChild(textarea);
+
+  // Copy the textarea
+  textarea.select()
+
+  try {
+    copying = true;
+    document.execCommand('copy');
+    $('#copy-useless-contract .icofont-ui-copy').hide();
+    $('#copy-useless-contract .icofont-check-circled').show();
+
+    setTimeout(() => {
+      $('#copy-useless-contract .icofont-ui-copy').show();
+      $('#copy-useless-contract .icofont-check-circled').hide();
+      copying = false;
+    }, 1000);
+  } finally {
+    copying = false;
+  }
+  
+  textarea.remove()
+}
+
+$('#copy-useless-contract').click(function() {
+  copyText('0x98671df651cd288b8bfddb49a34a03e604799c6d');
+})
+
 })(jQuery);

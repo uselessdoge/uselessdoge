@@ -13,7 +13,7 @@
 
 body {
   font-family: "Oxygen", sans-serif;
-  color: #444444;
+  color: #29292d;
   font-size: 14px;
 }
 
@@ -43,6 +43,26 @@ h2 {
 h3, h4, h5, h6 {
   font-size: 22px;
 }
+
+#copy-useless-contract {
+  border: none;
+  background: transparent;
+}
+
+#copy-useless-contract:hover {
+  color: #eab729;
+}
+
+.icofont-check-circled {
+  color: darkgreen;
+}
+
+.contract {
+    margin-bottom: 16px;
+    font-size: 12px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -107,7 +127,7 @@ h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #222222;
+  color: #29292d;
   text-decoration: none;
 }
 
@@ -205,7 +225,7 @@ h3, h4, h5, h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #222222;
+  color: #29292d;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -269,7 +289,7 @@ h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #222222;
+  color: #29292d;
 }
 
 .mobile-nav {
@@ -297,7 +317,7 @@ h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #222222;
+  color: #29292d;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -436,14 +456,15 @@ h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
-  max-height: initial;
+    max-height: initial;
   }
   #hero .animated {
     -webkit-animation: none;
     animation: none;
   }
   #hero .hero-img {
-    text-align: center;
+    width: 400px;
+    margin: 0 auto;
   }
   #hero .hero-img img {
     width: 50%;
@@ -539,7 +560,7 @@ section {
 .section-title h2 {
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+  color: #29292d;
 }
 
 .section-title h2::before, .section-title h2::after {
@@ -669,7 +690,7 @@ section {
 
 .counts .content h3 {
   font-weight: 700;
-  color: #222222;
+  color: #29292d;
 }
 
 .counts .content p {
@@ -692,7 +713,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #222222;
+  color: #29292d;
   margin-left: 50px;
 }
 
@@ -843,7 +864,7 @@ section {
 }
 
 .more-services .card-title a {
-  color: #222222;
+  color: #29292d;
 }
 
 .more-services .card-text {
@@ -894,7 +915,7 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #222222;
+  color: #29292d;
   transition: ease-in-out 0.3s;
 }
 
@@ -1017,7 +1038,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #222222;
+  color: #29292d;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
@@ -1145,7 +1166,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #222222;
+  color: #29292d;
   margin: 0 10px;
   padding-top: 8px;
   display: inline-block;
@@ -1166,7 +1187,7 @@ section {
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  color: #222222;
+  color: #29292d;
 }
 
 .team .member .member-info span {
@@ -1203,7 +1224,7 @@ section {
   padding: 15px;
   margin-top: 15px;
   font-weight: 600;
-  color: #222222;
+  color: #29292d;
 }
 
 .pricing .box h4 {
@@ -1225,7 +1246,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #222222;
+  color: #29292d;
   text-align: center;
   line-height: 20px;
 }
@@ -1315,7 +1336,7 @@ section {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #222222;
+  color: #29292d;
 }
 
 .contact .contact-about p {
@@ -1570,18 +1591,18 @@ section {
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #222222;
+  color: #29292d;
   font-size: 12px;
 }
 
 #footer .credits {
   font-size: 12px;
   padding-top: 5px;
-  color: #222222;
+  color: #29292d;
 }
 
 #footer .footer-links a {
-  color: #222222;
+  color: #29292d;
   padding-left: 15px;
 }
 
