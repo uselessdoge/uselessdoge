@@ -191,7 +191,7 @@ h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #ffb600b0;
+  background: #1FC7D4b0;
   color: #fff;
 }
 
@@ -592,7 +592,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #ffb6000a;
+  background: #1FC7D40a;
   padding: 10px 0;
   text-align: center;
 }
@@ -772,7 +772,7 @@ section {
 .services .icon-box::before {
   content: '';
   position: absolute;
-  background: #ffb6002e;
+  background: #1FC7D42e;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -1315,7 +1315,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #ffb600b8;
+  color: #1FC7D4b8;
   float: left;
   line-height: 0;
   padding: 13px 0 0 0;
