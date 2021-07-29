@@ -18,7 +18,7 @@ body {
 }
 
 a {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 a:hover {
@@ -50,7 +50,7 @@ h3, h4, h5, h6 {
 }
 
 #copy-useless-contract:hover {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 .icofont-check-circled {
@@ -83,7 +83,7 @@ h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
   transition: all 0.4s;
 }
@@ -182,7 +182,7 @@ h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
@@ -191,7 +191,7 @@ h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #1FC7D4b0;
+  background: #F29233b0;
   color: #fff;
 }
 
@@ -229,7 +229,7 @@ h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 .nav-menu .drop-down > a:after {
@@ -324,7 +324,7 @@ h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1FC7D4;
+  color: #F29233;
   text-decoration: none;
 }
 
@@ -334,7 +334,7 @@ h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -433,11 +433,11 @@ h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #29292d;
-  border: 2px solid #1FC7D4;
+  border: 2px solid #F29233;
 }
 
 #hero .btn-get-started:hover {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
 }
 
@@ -572,7 +572,7 @@ section {
   content: '';
   width: 50px;
   height: 2px;
-  background: #1FC7D4;
+  background: #F29233;
   display: inline-block;
 }
 
@@ -592,7 +592,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #1FC7D40a;
+  background: #F292330a;
   padding: 10px 0;
   text-align: center;
 }
@@ -653,7 +653,7 @@ section {
   position: absolute;
   left: 0;
   top: 2px;
-  color: #1FC7D4;
+  color: #F29233;
   line-height: 1;
 }
 
@@ -673,11 +673,11 @@ section {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #1FC7D4;
+  border: 2px solid #F29233;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
   text-decoration: none;
 }
@@ -709,7 +709,7 @@ section {
 
 .counts .content .count-box i {
   display: block;
-  color: #1FC7D4;
+  color: #F29233;
   float: left;
   font-size: 32px;
 }
@@ -772,7 +772,7 @@ section {
 .services .icon-box::before {
   content: '';
   position: absolute;
-  background: #1FC7D42e;
+  background: #F292332e;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -783,7 +783,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #1FC7D4;
+  background: #F29233;
   right: 0;
   top: 0;
   width: 100%;
@@ -799,7 +799,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #1FC7D4;
+  background: #F29233;
   transition: all 0.3s ease-in-out;
 }
 
@@ -832,7 +832,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 /*--------------------------------------------------------------
@@ -889,7 +889,7 @@ section {
 }
 
 .more-services .card:hover .card-body {
-  background: #1FC7D4;
+  background: #F29233;
 }
 
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
@@ -925,7 +925,7 @@ section {
 }
 
 .features .icon-box h3 a:hover {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 .features .icon-box:hover {
@@ -1005,7 +1005,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #1FC7D4 !important;
+  background-color: #F29233 !important;
 }
 
 @media (max-width: 767px) {
@@ -1051,7 +1051,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #1FC7D4;
+  background: #F29233;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1125,7 +1125,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1178,7 +1178,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 .team .member .social i {
@@ -1233,7 +1233,7 @@ section {
 }
 
 .pricing .box h4 {
-  color: #1FC7D4;
+  color: #F29233;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -1261,7 +1261,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #1FC7D4;
+  color: #F29233;
   padding-right: 4px;
 }
 
@@ -1279,24 +1279,24 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #1FC7D4;
-  color: #1FC7D4;
+  border: 2px solid #F29233;
+  color: #F29233;
   font-weight: 400;
   font-weight: 600;
   transition: 0.3s;
 }
 
 .pricing .box .btn-buy:hover {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #1FC7D4;
+  border-color: #F29233;
 }
 
 .pricing .recommended .btn-buy {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
 }
 
@@ -1315,7 +1315,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #1FC7D4b8;
+  color: #F29233b8;
   float: left;
   line-height: 0;
   padding: 13px 0 0 0;
@@ -1356,7 +1356,7 @@ section {
 .contact .social-links a {
   display: inline-block;
   background: #fff;
-  color: #1FC7D4;
+  color: #F29233;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1365,11 +1365,11 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #1FC7D4;
+  border: 1px solid #F29233;
 }
 
 .contact .social-links a:hover {
-  background: #1FC7D4;
+  background: #F29233;
   color: #fff;
 }
 
@@ -1378,7 +1378,7 @@ section {
 }
 
 .contact .info i {
-  color: #1FC7D4;
+  color: #F29233;
   float: left;
   line-height: 1;
 }
@@ -1443,7 +1443,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1FC7D4;
+  background: #F29233;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1558,7 +1558,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #1FC7D4 !important;
+  background-color: #F29233 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1616,7 +1616,7 @@ section {
 }
 
 #footer .footer-links a:hover {
-  color: #1FC7D4;
+  color: #F29233;
 }
 
 /*--------------------------------------------------------------
